@@ -1,0 +1,6 @@
+{
+  "badge": "Wzmocnij swoją szkołę dzięki Planerify",
+  "title": "Dokumentacja",
+  "description": "Planerify API to oparty na języku Python backend obsługujący Planerify. Łączy się on bezpiecznie z Librus w celu pobierania i przechowywania planów zajęć oraz ogłoszeń dotyczących poszczególnych zajęć. System automatycznie aktualizuje dane codziennie i przekazuje wszystkie dane do frontendu w formacie JSON.",
+  "team": "Zespół odpowiedzialny za elastyczny interfejs API Planerify łączący wszystkie usługi."
+}

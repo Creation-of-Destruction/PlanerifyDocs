@@ -1,0 +1,6 @@
+{
+  "badge": "Power your school with Planerify",
+  "title": "Documentation",
+  "description": "The Planerify API is a Python-based backend powering the Planerify. It securely connects to Librus to retrieve and store class schedules and announcements for each class. The system runs daily updates automatically and serves all data to the frontend in JSON format.",
+  "team": "The team behind Planerify’s flexible API connecting all services."
+}
