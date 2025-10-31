@@ -2,5 +2,36 @@
   "badge": "Wzmocnij swoją szkołę dzięki Planerify",
   "title": "Dokumentacja",
   "description": "Planerify API to oparty na języku Python backend obsługujący Planerify. Łączy się on bezpiecznie z Librus w celu pobierania i przechowywania planów zajęć oraz ogłoszeń dotyczących poszczególnych zajęć. System automatycznie aktualizuje dane codziennie i przekazuje wszystkie dane do frontendu w formacie JSON.",
-  "team": "Zespół odpowiedzialny za elastyczny interfejs API Planerify łączący wszystkie usługi."
+  "team": "Zespół odpowiedzialny za elastyczny interfejs API Planerify łączący wszystkie usługi.",
+  "usedSchools": "Nasze rozwiązanie API jest wykorzystywane przez szkoły",
+  "usedLanguage": {
+    "label": "Język",
+    "polish": "Polski",
+    "english": "Angielski"
+  },
+  "badgeAPI": "Integracje API",
+  "titleAPI": "Integracje z Planerify API",
+  "api_interface": {
+    "api_required": "Wymagane parametry (Bearer Token)",
+    "api_title": "Struktura Zwracanych Danych",
+    "api_success": "Odpowiedź Sukces API",
+    "api_error": "Odpowiedź Błąd API",
+    "announcements_api": {
+      "announcements_api_name": "Ogłoszenia",
+      "announcements_api_desc": "Endpoint automatycznie pobiera ogłoszenia z konta Librus, a następnie zapisuje je w formacie JSON pod adresem"
+    },
+    "schedule_api": {
+      "schedule_api_name": "Lekcje",
+      "schedule_api_desc": "Endpoint automatycznie pobiera plan lekcji dla każdej klasy z konta Librus, a następnie zapisuje go w formacie JSON w"
+    },
+    "authorization_api": {
+      "authorization_api_name": "Autoryzacja",
+      "authorization_api_desc": "Endpoint autoryzacji łączy się z Planerify API przy użyciu unikalnego klucza API zakupionego przez szkołę i wykorzystuje ustawienia konfiguracji Librusa. Jeśli klucz i konfiguracja są poprawne, połączenie jest pomyślne; w przeciwnym razie zwracany jest błąd autoryzacji."
+    }
+  },
+  "footer": {
+    "version_name": "Wersja",
+    "description": "Dokumentacja opracowana przez zespół Creation of Destruction w celu ułatwienia integracji z PlanerifyAPI.",
+    "help": "W razie problemów technicznych skontaktuj się z nami:"
+  }
 }

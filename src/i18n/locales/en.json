@@ -2,5 +2,36 @@
   "badge": "Power your school with Planerify",
   "title": "Documentation",
   "description": "The Planerify API is a Python-based backend powering the Planerify. It securely connects to Librus to retrieve and store class schedules and announcements for each class. The system runs daily updates automatically and serves all data to the frontend in JSON format.",
-  "team": "The team behind Planerify’s flexible API connecting all services."
+  "team": "The team behind Planerify’s flexible API connecting all services.",
+  "usedSchools": "Our API solution is used by schools",
+  "usedLanguage": {
+    "label": "Language",
+    "polish": "Polish",
+    "english": "English"
+  },
+  "badgeAPI": "API Integrations",
+  "titleAPI": "Integrations with Planerify API",
+  "api_interface": {
+    "api_required": "Required parameters (Bearer Token)",
+    "api_title": "Response Data Structure",
+    "api_success": "API Success Response",
+    "api_error": "API Error Response",
+    "announcements_api": {
+      "announcements_api_name": "Announcements",
+      "announcements_api_desc": "The endpoint automatically retrieves announcements from the Librus account and then saves them in JSON format at"
+    },
+    "schedule_api": {
+      "schedule_api_name": "Schedule",
+      "schedule_api_desc": "The endpoint automatically retrieves the schedule for each class from the Librus account and then saves it in JSON format at"
+    },
+    "authorization_api": {
+      "authorization_api_name": "Authorization",
+      "authorization_api_desc": "The authorization endpoint connects to the Planerify API using a unique API key purchased by the school and utilizes the school's Librus configuration settings. If the key and configuration are valid, the connection is successful; otherwise, an authorization error is returned."
+    }
+  },
+  "footer": {
+    "version_name": "Version",
+    "description": "Documentation developed by the Creation of Destruction team to facilitate integration with the PlanerifyAPI.",
+    "help": "In case of technical issues, please contact us:"
+  }
 }
